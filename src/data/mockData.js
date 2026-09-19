@@ -137,9 +137,9 @@ export const SERVICES = [
 
 export const SEED_PROFESSIONALS = [
   {
-    id: 'vicky',
-    name: 'Vicky Rife',
-    role: 'Lash Artist & Fundadora',
+    id: 'especialista',
+    name: 'Especialista',
+    role: 'Especialista en Belleza',
     status: 'active',
   },
 ]
@@ -147,19 +147,19 @@ export const SEED_PROFESSIONALS = [
 // Datos públicos del estudio, reutilizados en el header, el pie de página,
 // la sección de ubicación y las políticas de turno.
 export const STUDIO_INFO = {
-  name: 'VR Beauty Lash',
-  founder: 'Vicky Rife',
+  name: 'Beauty Studio Demo',
+  founder: 'Especialista',
   addressLine: 'Argüello, Córdoba, Argentina',
-  instagramHandle: '@vr.beauty.lash',
-  instagramUrl: 'https://www.instagram.com/vr.beauty.lash/',
+  instagramHandle: '@beautystudiodemo',
+  instagramUrl: 'https://www.instagram.com/beautystudiodemo/',
   mapsUrl:
     'https://www.google.com/maps/search/?api=1&query=' +
-    encodeURIComponent('VR Beauty Lash, Argüello, Córdoba, Argentina'),
+    encodeURIComponent('Beauty Studio Demo, Argüello, Córdoba, Argentina'),
   mapsEmbedUrl:
     'https://maps.google.com/maps?q=' +
     encodeURIComponent('Argüello, Córdoba, Argentina') +
     '&z=14&output=embed',
-  // WhatsApp del estudio (dueña), en formato E.164 sin "+" ni espacios.
+  // WhatsApp del estudio (demo), en formato E.164 sin "+" ni espacios.
   whatsappNumber: '5493512444051',
 }
 
@@ -167,7 +167,7 @@ export const STUDIO_INFO = {
 // los que ya figuran en SEED_APPOINTMENTS). Cada uno con su propia
 // duración, para que el bloqueo de horarios sea realista.
 export const BOOKED_SLOTS = {
-  vicky: [
+  especialista: [
     { time: '08:00', duration: 45 },
     { time: '19:30', duration: 30 },
   ],
@@ -199,7 +199,7 @@ export const SEED_APPOINTMENTS = [
     clientName: 'Martina Gómez',
     clientPhone: '351 555 0142',
     serviceId: 'pestanas-3d4d5d',
-    barberId: 'vicky',
+    barberId: 'especialista',
     date: new Date().toISOString().slice(0, 10),
     time: '10:00',
     reminderSent: false,
@@ -211,7 +211,7 @@ export const SEED_APPOINTMENTS = [
     clientName: 'Facundo Ríos',
     clientPhone: '351 555 0198',
     serviceId: 'perfilado-cejas',
-    barberId: 'vicky',
+    barberId: 'especialista',
     date: new Date().toISOString().slice(0, 10),
     time: '16:30',
     reminderSent: true,
@@ -223,7 +223,7 @@ export const SEED_APPOINTMENTS = [
     clientName: 'Bruna Aguirre',
     clientPhone: '351 555 0163',
     serviceId: 'lifting-pestanas',
-    barberId: 'vicky',
+    barberId: 'especialista',
     date: new Date().toISOString().slice(0, 10),
     time: '17:00',
     reminderSent: false,

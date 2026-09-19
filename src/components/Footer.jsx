@@ -22,7 +22,7 @@ export default function Footer() {
         </a>
       </p>
       <p className="mt-1 text-xs text-muted">
-        Demo de agendamiento — VR Beauty Lash © {new Date().getFullYear()}
+        Demo de agendamiento — Beauty Studio Demo © {new Date().getFullYear()}
       </p>
     </footer>
   )

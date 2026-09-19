@@ -26,7 +26,7 @@ export default function SuccessScreen({ booking, onReset }) {
         </h2>
         <p className="mt-2 text-sm text-muted">
           Tu seña fue acreditada con Mercado Pago. Un último paso para avisarle
-          a Vicky.
+          a la especialista.
         </p>
       </div>
 
@@ -69,11 +69,11 @@ export default function SuccessScreen({ booking, onReset }) {
           className="flex w-full max-w-xs items-center justify-center gap-1.5 rounded-full bg-gradient-to-r from-rose-gold to-champagne px-5 py-2.5 text-sm font-semibold text-obsidian shadow-md shadow-rose-gold-deep/20 transition hover:brightness-105"
         >
           <MessageCircle size={16} aria-hidden="true" />
-          Enviar comprobante y notificar a Vicky
+          Enviar comprobante y notificar
         </a>
         <p className="text-xs text-emerald-700">
           Presioná el botón para enviar tu confirmación directamente al chat de
-          Vicky.
+          la especialista.
         </p>
       </div>
 

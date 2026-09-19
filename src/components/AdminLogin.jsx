@@ -37,7 +37,7 @@ export default function AdminLogin({ isAuthenticated, onLogin }) {
             className="h-14 w-14 rounded-full object-cover shadow-sm shadow-rose-gold-deep/20"
           />
           <h1 className="font-serif text-2xl font-bold text-plum">Panel Admin</h1>
-          <p className="text-sm text-muted">VR Beauty Lash — acceso privado</p>
+          <p className="text-sm text-muted">Beauty Studio Demo — acceso privado</p>
         </div>
 
         <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-4">
@@ -56,7 +56,7 @@ export default function AdminLogin({ isAuthenticated, onLogin }) {
                   setUser(event.target.value)
                   setError(false)
                 }}
-                placeholder="admin@vrbeautylash.com"
+                placeholder="admin"
                 className="w-full bg-transparent text-sm text-plum placeholder:text-muted/50 focus:outline-none"
               />
             </div>

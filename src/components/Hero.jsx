@@ -11,7 +11,7 @@ export default function Hero() {
     <section id="inicio" className="scroll-mt-24 border-b border-nude/60 px-4 py-10 text-center sm:px-6 sm:py-14">
       <div className="mx-auto flex max-w-4xl flex-col items-center gap-3">
         <h1 className="font-serif text-3xl font-extrabold tracking-tight text-plum sm:text-4xl lg:whitespace-nowrap">
-          VR Beauty Lash<span className="hidden sm:inline"> — </span>
+          Beauty Studio Demo<span className="hidden sm:inline"> — </span>
           <br className="sm:hidden" />
           Cejas & Pestañas
         </h1>

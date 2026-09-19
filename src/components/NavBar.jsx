@@ -53,7 +53,7 @@ export default function NavBar({ isAuthenticated, onNavigate, onGoHome, onLogout
             height={34}
             className="h-[34px] w-[34px] flex-shrink-0 rounded-full object-cover shadow-sm shadow-black/30"
           />
-          <p className="font-serif text-base font-semibold sm:text-lg">VR Beauty Lash</p>
+          <p className="font-serif text-base font-semibold sm:text-lg">Beauty Studio Demo</p>
         </button>
 
         <nav aria-label="Secciones de la página" className="hidden items-center gap-1 md:flex">
