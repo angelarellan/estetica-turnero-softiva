@@ -160,7 +160,7 @@ export const STUDIO_INFO = {
     encodeURIComponent('Argüello, Córdoba, Argentina') +
     '&z=14&output=embed',
   // WhatsApp del estudio (demo), en formato E.164 sin "+" ni espacios.
-  whatsappNumber: '5493512444051',
+  whatsappNumber: '5493543635504',
 }
 
 // Turnos ocupados de ejemplo para simular disponibilidad real (además de
